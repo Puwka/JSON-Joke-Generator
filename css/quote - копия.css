@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #2f53ed;
+}
+
+.container {
+  color: #2f53ed;
+  font-family: sans-serif;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  position: relative;
+  margin: 150px auto;
+  width: 800px;
+  border-radius: 2em;
+  height: 300px;
+  background-color: #fff;
+}
+
+.unavilable {
+  position: absolute;
+  background-color: #2f53ed;
+  bottom: 30px;
+  outline: none;
+  border: none;
+  height: 35px;
+  border-radius: 1em;
+  color: white;
+  color: darkgray;
+  background-color: gray;
+  left: 30px;
+  width: 35px;
+  border: 2px solid transparent;
+}
+
+.unavilable:hover {
+  background-color: white;
+  border: 2px solid #2f53ed;
+  color: #2f53ed;
+  cursor: pointer;
+}
+
+.unavilable .fa {
+  font-size: 22px;
+}
+
+.unavilable:hover {
+  background-color: gray;
+  color: darkgray;
+  border: 2px solid transparent;
+}
+
+.bt {
+  position: absolute;
+  background-color: #2f53ed;
+  bottom: 30px;
+  outline: none;
+  border: none;
+  height: 35px;
+  border-radius: 1em;
+  color: white;
+  right: 30px;
+  width: 100px;
+}
+
+.bt:hover {
+  background-color: white;
+  border: 2px solid #2f53ed;
+  color: #2f53ed;
+  cursor: pointer;
+}
+
+.twitter {
+  position: absolute;
+  background-color: #2f53ed;
+  bottom: 30px;
+  outline: none;
+  border: none;
+  height: 35px;
+  border-radius: 1em;
+  color: white;
+  left: 30px;
+  width: 35px;
+  border: 2px solid transparent;
+}
+
+.twitter:hover {
+  background-color: white;
+  border: 2px solid #2f53ed;
+  color: #2f53ed;
+  cursor: pointer;
+}
+
+.twitter .fa {
+  font-size: 22px;
+}
+
+.text {
+  padding: 20px 50px;
+}
+
+.text p {
+  font-size: 28px;
+}
